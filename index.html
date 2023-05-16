@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,24 @@
     <title>Dnd playground</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body onload="init()">
     <h1>Items</h1>
     <section class="wrapper">
-        <ul class="item-list list1" ></ul>
-        <ul class="item-list list2"></ul>
+        <div>
+            <h2>Todo</h2>
+            <ul id="todo-container" class="item-list"></ul>
+        </div>
+        <div>
+            <h2>In Progress</h2>
+            <ul id="in-progress-container" class="item-list"></ul>
+        </div>
+        <div>
+            <h2>Done</h2>
+            <ul id="done-container" class="item-list"></ul>
+        </div>
     </section>
     <script src="assets/main.js"></script>
 </body>
+
 </html>

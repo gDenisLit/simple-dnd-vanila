@@ -27,16 +27,17 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    padding: 2em;
-    border: 1px solid rgba(0, 0, 0, 0.46);
     width: max-content;
     background-color: lightyellow;
-    min-width: 15em;
+    border: 1px solid rgba(0, 0, 0, 0.46);
+    padding: 10px;
+    width: 200px;
 }
 
 .item-preview {
     border: 1px solid black;
-    padding: 1em;
     background-color: aliceblue;
     cursor: pointer;
+    background-color: lightgray;
+    padding: 0.4em;
 }
