@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0 1em;
+    width: 100vw;
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+.wrapper {
+    display: flex;
+    gap: 2rem;
+}
+
+.item-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em;
+    border: 1px solid rgba(0, 0, 0, 0.46);
+    width: max-content;
+    background-color: lightyellow;
+    min-width: 15em;
+}
+
+.item-preview {
+    border: 1px solid black;
+    padding: 1em;
+    background-color: aliceblue;
+    cursor: pointer;
+}
